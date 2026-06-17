@@ -1,0 +1,1 @@
+:START_ID	id	is_directed:boolean	is_stimulation:boolean	is_inhibition:boolean	consensus_direction:boolean	consensus_stimulation:boolean	consensus_inhibition:boolean	:END_ID	:TYPE

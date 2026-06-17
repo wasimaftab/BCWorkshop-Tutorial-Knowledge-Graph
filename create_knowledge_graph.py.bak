@@ -11,7 +11,7 @@ from biocypher import (
     BioCypher,
     FileDownload,
 )
-from src.biocypher_tutorial_kg.adapters.protein_interaction_adapter import ProteinInteractionAdapter
+from biocypher_tutorial_kg.adapters.protein_interaction_adapter import ProteinInteractionAdapter
 
 
 # Configure logging
@@ -57,7 +57,8 @@ def main():
     # Hint: ProteinInteractionAdapter(data_source=protein_interaction_file)
     # ─────────────────────────────────────────────────────────────────────────
     # ---------- YOUR CODE STARTS HERE ----------
-    protein_interaction_adapter = ProteinInteractionAdapter(data_source=protein_interaction_file) 
+    
+
     # ---------- YOUR CODE ENDS HERE ----------
 
     # ── TODO 6b ──────────────────────────────────────────────────────────────
@@ -67,7 +68,7 @@ def main():
     # Hint: adapters = [protein_interaction_adapter]
     # ─────────────────────────────────────────────────────────────────────────
     # ---------- YOUR CODE STARTS HERE ----------
-    adapters = [protein_interaction_adapter]
+
     # ---------- YOUR CODE ENDS HERE ----------
 
     # ── REFERENCE ────────────────────────────────────────────────────────────

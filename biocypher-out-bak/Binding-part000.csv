@@ -1,0 +1,3 @@
+P08228	P08228_P00533_binding	true	false	false	true	false	false	P00533	"Binding"
+P07901	P07901_P04406_binding	true	false	false	true	false	false	P04406	"Binding"
+P00533	P00533_P08228_binding	false	true	true	false	false	true	P08228	"Binding"

@@ -16,16 +16,7 @@ protein:
     #                 genesymbol: str
     # ────────────────────────────────────────────────────────────────────────
     # ---------- YOUR CODE STARTS HERE ----------
-    # add your desired knowledge graph components here
-    properties:
-        genesymbol: str
-        ncbi_tax_id: int
-        entity_type: str
 
-disease:
-    represented_as: node
-    preferred_id: doid
-    input_label: do_disease
     # ---------- YOUR CODE ENDS HERE ----------
 
     
@@ -66,40 +57,6 @@ activation:
 #       phosphorylation, ubiquitination.
 # ─────────────────────────────────────────────────────────────────────────────
 # ---------- YOUR CODE STARTS HERE ----------
-protein interaction:
-    is_a: pairwise molecular interaction
-    represented_as: edge
-    input_label: protein_protein_interaction
-
-protein to disease association:
-    is_a: association
-    represented_as: edge
-    input_label: protein_disease_association
-
-binding:
-    is_a: protein protein interaction
-    inherit_properties: true
-    represented_as: edge
-    input_label: binding
-
-inhibition:
-    is_a: protein protein interaction
-    inherit_properties: true
-    represented_as: edge
-    input_label: inhibition 
-
-phosphorylation:
-    is_a: protein protein interaction
-    inherit_properties: true    
-    represented_as: edge
-    input_label: phosphorylation
-        
-ubiquitination:
-    is_a: protein protein interaction
-    inherit_properties: true    
-    represented_as: edge
-    input_label: ubiquitination 
-    
 
 
 

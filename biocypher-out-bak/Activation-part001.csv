@@ -1,0 +1,6 @@
+P62832	P62832_P04637_activation	true	true	false	true	true	false	P04637	"Activation"
+Q63356	Q63356_P62832_activation	true	true	false	true	true	false	P62832	"Activation"
+P07901	P07901_P12023_activation	true	true	false	true	true	false	P12023	"Activation"
+P04406	P04406_P04637_activation	true	true	false	true	true	false	P04637	"Activation"
+P04406	P04406_P12023_activation	true	true	false	true	true	false	P12023	"Activation"
+P04637	P04637_P28482_activation	true	true	false	true	true	false	P28482	"Activation"
